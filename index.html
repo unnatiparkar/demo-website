@@ -1,81 +1,206 @@
-<!DOCTYPE html>
-<html>
-      <head>
-      <title>DEMO WEBSITE</title>
-      </head>
-<body></body>
-<h1>GenKnow</h1>
-<h4>KNOWLEDGE INFINITY!</h4>
-<img src="https://media-public.canva.com/jiUOI/MADQDyjiUOI/2/tl.png" alt="logo"class="logo" style="width: 100px;">
-<hr>
+<doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div class="container">
-      <nav>
-        <a href="#" class="hide-desktop"></a>
-        <ul>
-            <li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">QUIZZES</a></li>
-                <li><a href="#">TRIVIA</a></li>
-                <li><a href="#">BLOGS</a></li>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <a href="#">LOG/SIGNUP</a><br>
-                <a href="#">search</a>
-            </li>
-        </ul>
-      </nav>
-       <img src=data:image/jpeg;base64,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>
-       <h3>"TRUE KNOWLEDGE EXISTS KNOWING THAT YOU KNOW NOTHING"</h3>
-       <img src=https://www.inquirer.com/resizer/nTxIzgKyLiCOe8amHzdu6-aDAzI=/1400x932/smart/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/DG6BVEKYZ5ALDMYNBKXCXPX57Q.jpg alt="john adams" style="width: 300px;">
-       <h3>"LIBERTY CANNOT BE PRESERVED WITHOUT GENERAL KNOWLEDGE AMONG PEOPLE"</h3>
-</div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-<div class="Blue container">
-    <div class="container">
-        <ul>
-            <li>
-                <h3>TOPICS</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus animi harum autem nisi exercitationem quisquam. Ad eos laudantium ipsum mollitia illo voluptate perspiciatis suscipit voluptatum. Eos eaque aperiam asperiores.</p>
-            </li>
+  <title>GenKnow Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-            <li>
-                <h3>ABOUT THE WEBSITE</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias laudantium nesciunt! Harum ad sed quia fuga dolores autem distinctio doloribus iusto sequi laudantium ab rem, quis consequatur optio repellat?</p>
-            </li>
-            <li>
-                <h3>QUIZZES</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta ab vel ipsa nobis voluptatem maiores laboriosam sapiente eaque asperiores alias voluptatum repellendus quasi, est minus neque veniam modi nostrum?</p>
-            </li>
-        </ul>
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <!--fav icon-->
+</head>
+<body>
+  <!--NAVBAR AND LOGO-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">GenKnow</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quizzes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-ser">
+          <input type="text" placeholder="Search..">
+        </li>
+        
+        
+        
+      </ul>
+      
     </div>
+  </nav>
+
+  
+
+<!--CAROUSEL-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.png" class="d-block w-100" alt="..." style="height: 500px">
+    </div>
+    <div class="carousel-item active">
+      <img src="2.png" class="d-block w-100" alt="..." style="height: 500px">
+    </div>
+    <div class="carousel-item active">
+      <img src="3.png" class="d-block w-100" alt="..." style="height: 500px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
+<!--ABOUT THE WEBSITE-->
+<section id= "features" class="container">
+  <h1 style="text-align: center;">FEATURES</h1>
+  <hr>
+  <div class="row">
+    <div class="col-sm-4 services_container">
+      <h4>TOPICS</h4>
+      <p class="content">Interested in learning about the world and nature around you?Well you are in luck,because this is the place to be!Our topics range from nature to politics,from entertainment to world affairs.Educate yourself in the most interesting and funway!</p>
+      </div>
+      <div class="col-sm-4 services_container">
+      <h4>QUICK NEWS</h4>
+      <p class="content">-With the rise in the coronovirus cases,India has become the 2nd highest number of cases in the whole world<br>-#SUPPORTFORWOMENBYWOMEN is trending worldwide on all social media platforms as a protest against the turkish president for illtreatment against the women in country<br>-AICTE announces that all graduation and post graduation colleges are going to resume from the 17th of AUG.Parents dissapoint.
+      </div>
+    <div class="col-sm-4 services_container">
+       <h4>QUIZZES</h4>
+      <p class="content">-DO YOU HAVE ENOUGH GENERAL KNOWLEDGE TO BEAT THIS QUIZ <br>-THERE ARE 28 INDIAN STATES AND I'LL BE IMPRESSED IF YOU CAN FIND 12 OF THEM! <br> -ONLY A TRUE GENIUS CAN SCORE 13/15 IN THIS INDIA TRIVIA QUIZ</p>
+      </div>
+    
+  </div>
+  <button type="button" class="btn btn-primary btn-lg btn-block">LOG IN/SIGN UP</button>
+<!--FOOTER-->
 <footer>
-   <div class="blue container">
-       <ul>
-           <li>
-               <h3>CONTACT</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, iusto eius! Omnis, eaque delectus ipsum nulla saepe dolore nam sit tempora ullam a, deserunt iste possimus tempore, repellendus ea repudiandae.lorem</p>
-           </li>
-           <li>
-               <h3>SOCIAL MEDIA</h3>
-               <a href="#">
-                   http://www.instagram.com
-                   <br>
-                   http://www.facebook.com
-               </a>
-           </li>
-           <li>
-               <h3>ADDRESS</h3>
-               <p>TUKARAM KRUPA,H/NO:1126</p><br><p>SHIRODA-GOA 403103</p>
-           </li>
-       </ul>
+   <div class="row">
+
+   <div class="col-sm-4 container">
+     <h5>CONTACT</h5>
+     
+     <p>CUSTOMER SUPPORT<br>GENERAL ENQUIRY<br>WORK WITH US!</p>
    </div>
+   <div class="col-sm-4 container">
+     <h5>ADDRESS</h5>
+     <p>'VIXOM OFFICE BUILIDING'5th floor,Lower Parel,Mumbai-Maharastra-India</p>
+     </div>
+     <div class="col-sm-4 container">
+       <h5>SOCIAL MEDIA</h5>
+     <img src="facebook (2).png" class="fb">
+     <img src="instagram-sketched (1).png" class="insta">
+     <img src="twitter.png" class="twitter">
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
 </footer>
 
-    
+
+
 </body>
 
 
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</doctype>
