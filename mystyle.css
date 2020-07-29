@@ -1,0 +1,20 @@
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
+  color: blue;
+  font-style: inherit;
+
+}
+.nav-item{
+  margin-left: 3.8em;
+}
+.nav-ser{
+  margin-left: 25em;
+}
+h4{
+  text-align: center;
+}
+footer{
+  background-color: cadetblue;
+  padding-left: 20mm;
+}
