@@ -14,7 +14,21 @@
 h4{
   text-align: center;
 }
+.container-1{
+  text-align: center ;
+}
+h6{
+  text-align: center;
+}
 footer{
-  background-color: cadetblue;
-  padding-left: 20mm;
+  clear: both;
+  background-color:lightgrey;
+  margin-top: 2.5em;
+  
+}
+.list-unstyled{
+   text-align: center;
+   margin-top: 0.8em;
+
+  
 }
